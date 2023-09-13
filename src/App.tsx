@@ -24,7 +24,11 @@ function App() {
     if (!localStorage.getItem('tasks')) {
       const tarefa = {
         id: Math.floor(Math.random() * (10000 - 500)) + 1,
+<<<<<<< Updated upstream
         task:  task[0].toUpperCase()  + task.substring(1),
+=======
+        task: task[0].toUpperCase() + task.substring(1),
+>>>>>>> Stashed changes
         background: 'white'
       }
       lista.push(tarefa);
@@ -34,7 +38,11 @@ function App() {
       const novaLista = JSON.parse(localStorage.getItem('tasks')!);
       const tarefa = {
         id: Math.floor(Math.random() * (10000 + 1000)) + 1,
+<<<<<<< Updated upstream
         task:  task[0].toUpperCase()  + task.substring(1),
+=======
+        task: task[0].toUpperCase() + task.substring(1),
+>>>>>>> Stashed changes
         background: 'white'
       }
       novaLista.push(tarefa);
