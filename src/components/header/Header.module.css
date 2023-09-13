@@ -1,0 +1,13 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header span{
+    font-size: 2rem;
+    color: #a1b3e5;
+    font-weight: bold;
+}
